@@ -21,4 +21,9 @@ public class Ogrenci {
     private int puan;
     @Column(nullable = true)
     private String dtarih;
+
+    public Ogrenci(Long ogrno) {
+        this.ogrno = ogrno;
+        System.out.println();
+    }
 }
